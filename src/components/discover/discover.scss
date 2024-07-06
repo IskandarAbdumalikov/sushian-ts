@@ -1,0 +1,35 @@
+.discover{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    &__top__left,&__top__right{
+        min-height: 650px;
+    }
+    &__top__left{
+        padding: 135px 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        h3{
+            color: #B1454A;
+        }
+        h2{
+            font-size: 60px;
+        }
+        .trues{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 100px;
+            span{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    }
+    &__top__right{
+        background: #FFF0DE;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

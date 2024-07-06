@@ -1,0 +1,40 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 999;
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__left {
+      width: 40%;
+      padding: 20px 16px;
+      background: #b1454a;
+      &__logo{
+        color: white;
+      }
+    }
+    &__right {
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 0px;
+      gap: 40px;
+      button{
+        background: transparent;
+        font-size: 18px;
+        border: none;
+      }
+      &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+      }
+    }
+  }
+}
