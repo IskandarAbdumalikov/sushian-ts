@@ -14,6 +14,7 @@ const Header:FC = () => {
             <a href="#">FOODS</a>
             <a href="#">SERVICES</a>
             <a href="#">ABOUT US</a>
+            <a href="/login">ACCOUNT</a>
           </ul>
           <button>
             <CiSearch />
