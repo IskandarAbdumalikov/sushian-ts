@@ -9,7 +9,7 @@
   gap: 40px;
   text-align: center;
   padding: 50px 0px;
-  &__button{
+  &__button {
     padding: 15px 30px;
     color: white;
     background: black;
@@ -46,21 +46,7 @@
     }
     ul {
       &::-webkit-scrollbar {
-        width: 8px;
-        height: 8px;
-      }
-
-      &::-webkit-scrollbar-track {
-        background: #f1f1f1;
-      }
-
-      &::-webkit-scrollbar-thumb {
-        background: #888;
-        border-radius: 10px;
-      }
-
-      &::-webkit-scrollbar-thumb:hover {
-        background: #555;
+        display: none;
       }
     }
   }
@@ -90,18 +76,18 @@
       flex-direction: column;
       color: white;
       gap: 30px;
-      &__rating{
+      &__rating {
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 20px;
-        .rating{
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            img{
-                width: 30px !important;
-            }
+        .rating {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          img {
+            width: 30px !important;
+          }
         }
       }
     }
@@ -121,8 +107,8 @@
   width: auto;
 }
 
-.swiper-slide-active{
-    .popular__cards__card{
-        background: white !important;
-    }
+.swiper-slide-active {
+  .popular__cards__card {
+    background: white !important;
+  }
 }
