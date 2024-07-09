@@ -8,7 +8,7 @@ const Offers = () => {
       </h1>
       <p>Sign up for the Sushiman newsletter.</p>
       <form>
-        <input placeholder="Enter email address" type="text" />
+        <input className="e-input" placeholder="Enter email address" type="text" />
         <button>get started</button>
       </form>
     </div>
